@@ -1,0 +1,30 @@
+.pill-results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    color: #ff0000;
+    margin-bottom: 20px;
+  }
+  
+  .pill-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .pill-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pill-item p {
+    margin: 5px 0;
+  }
